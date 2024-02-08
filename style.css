@@ -2,3 +2,9 @@ body {
   background-color: #222;
   color: #bada55;
 }
+
+.square {
+  width: 150px;
+  height: 300px;
+  background-color: white
+}

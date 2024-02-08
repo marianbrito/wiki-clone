@@ -3,8 +3,16 @@ body {
   color: #bada55;
 }
 
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-container {
+  width: 65%;
+}
+
 .square {
-  width: 150px;
-  height: 300px;
-  background-color: white
+  width: 35%;
+  background-color: #555
 }

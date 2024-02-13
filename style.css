@@ -1,11 +1,30 @@
 body {
   background-color: #222;
   color: #bada55;
+  padding: 10px 2.5% 10px 2.5%;
+}
+
+
+h1 {
+  font-size: 44px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 20px;
 }
 
 .container {
   display: flex;
   justify-content: space-between;
+  gap: 5%;
 }
 
 .text-container {

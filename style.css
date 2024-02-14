@@ -64,3 +64,50 @@ width: 40%;
   width: 50%;
   margin-right: 20px;
 }
+
+nav, .nav-start, .nav-end {
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  justify-content: space-between;
+  color: white;
+  height: 50px;
+}
+
+.nav-start span {
+  font-family: serif;
+  font-size: 30px;
+}
+
+.burger {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: #bada55;
+  gap: 5px;
+  border: none;
+  margin-right: 30px;
+  transition: 0.2s;
+}
+
+.burger:hover {
+  color: white;
+  transform: scale(1.1);
+}
+
+.logo {
+  width: 50px;
+  margin: 0 5px 0 0;
+}
+
+.search {
+  font-size: 30px;
+  background-color: transparent;
+  color: #bada55;
+  border: none
+}
